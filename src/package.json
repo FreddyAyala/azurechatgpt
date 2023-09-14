@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+"dev": "next dev",
+"build": "next build",
+"start": "/home/site/wwwroot/node_modules/next/dist/bin/next",
+"startLocal" : "next start",
+"lint": "next lint"
   },
   "dependencies": {
     "@azure/cosmos": "^3.17.3",
